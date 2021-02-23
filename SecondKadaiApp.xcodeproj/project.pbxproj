@@ -13,6 +13,17 @@
 		8E289B5325E3F20D0032F128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B5125E3F20D0032F128 /* Main.storyboard */; };
 		8E289B5525E3F2110032F128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B5425E3F2110032F128 /* Assets.xcassets */; };
 		8E289B5825E3F2110032F128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B5625E3F2110032F128 /* LaunchScreen.storyboard */; };
+		8E289B6225E3F6840032F128 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E289B6125E3F6840032F128 /* ResultViewController.swift */; };
+		8E289B6625E53CF00032F128 /* SecondKadaiApp in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B6525E53CEF0032F128 /* SecondKadaiApp */; };
+		8E289B6925E53D140032F128 /* SecondKadaiApp in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B6825E53D130032F128 /* SecondKadaiApp */; };
+		8E289B7A25E53D540032F128 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E289B7025E53D540032F128 /* ViewController.swift */; };
+		8E289B7B25E53D540032F128 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E289B7125E53D540032F128 /* ResultViewController.swift */; };
+		8E289B7C25E53D540032F128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B7225E53D540032F128 /* Assets.xcassets */; };
+		8E289B7D25E53D540032F128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B7325E53D540032F128 /* LaunchScreen.storyboard */; };
+		8E289B7E25E53D540032F128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B7525E53D540032F128 /* Main.storyboard */; };
+		8E289B7F25E53D540032F128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E289B7725E53D540032F128 /* AppDelegate.swift */; };
+		8E289B8025E53D540032F128 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E289B7825E53D540032F128 /* Info.plist */; };
+		8E289B8125E53D540032F128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E289B7925E53D540032F128 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,18 @@
 		8E289B5425E3F2110032F128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E289B5725E3F2110032F128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E289B5925E3F2110032F128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E289B6125E3F6840032F128 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8E289B6525E53CEF0032F128 /* SecondKadaiApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SecondKadaiApp; sourceTree = "<group>"; };
+		8E289B6825E53D130032F128 /* SecondKadaiApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SecondKadaiApp; sourceTree = "<group>"; };
+		8E289B6C25E53D540032F128 /* SecondKadaiApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SecondKadaiApp.xcodeproj; sourceTree = "<group>"; };
+		8E289B7025E53D540032F128 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E289B7125E53D540032F128 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8E289B7225E53D540032F128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E289B7425E53D540032F128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E289B7625E53D540032F128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E289B7725E53D540032F128 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E289B7825E53D540032F128 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E289B7925E53D540032F128 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				8E289B4A25E3F20D0032F128 /* SecondKadaiApp */,
+				8E289B6525E53CEF0032F128 /* SecondKadaiApp */,
+				8E289B6825E53D130032F128 /* SecondKadaiApp */,
+				8E289B6B25E53D540032F128 /* SecondKadaiApp */,
 				8E289B4925E3F20D0032F128 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +88,37 @@
 				8E289B5125E3F20D0032F128 /* Main.storyboard */,
 				8E289B5425E3F2110032F128 /* Assets.xcassets */,
 				8E289B5625E3F2110032F128 /* LaunchScreen.storyboard */,
+				8E289B6125E3F6840032F128 /* ResultViewController.swift */,
 				8E289B5925E3F2110032F128 /* Info.plist */,
+			);
+			path = SecondKadaiApp;
+			sourceTree = "<group>";
+		};
+		8E289B6B25E53D540032F128 /* SecondKadaiApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E289B6C25E53D540032F128 /* SecondKadaiApp.xcodeproj */,
+				8E289B6F25E53D540032F128 /* SecondKadaiApp */,
+			);
+			name = SecondKadaiApp;
+			sourceTree = "<group>";
+		};
+		8E289B6D25E53D540032F128 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E289B6F25E53D540032F128 /* SecondKadaiApp */ = {
+			isa = PBXGroup;
+			children = (
+				8E289B7025E53D540032F128 /* ViewController.swift */,
+				8E289B7125E53D540032F128 /* ResultViewController.swift */,
+				8E289B7225E53D540032F128 /* Assets.xcassets */,
+				8E289B7325E53D540032F128 /* LaunchScreen.storyboard */,
+				8E289B7525E53D540032F128 /* Main.storyboard */,
+				8E289B7725E53D540032F128 /* AppDelegate.swift */,
+				8E289B7825E53D540032F128 /* Info.plist */,
+				8E289B7925E53D540032F128 /* SceneDelegate.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -112,6 +168,12 @@
 			mainGroup = 8E289B3F25E3F20D0032F128;
 			productRefGroup = 8E289B4925E3F20D0032F128 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E289B6D25E53D540032F128 /* Products */;
+					ProjectRef = 8E289B6C25E53D540032F128 /* SecondKadaiApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8E289B4725E3F20D0032F128 /* SecondKadaiApp */,
@@ -125,7 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E289B5825E3F2110032F128 /* LaunchScreen.storyboard in Resources */,
+				8E289B6625E53CF00032F128 /* SecondKadaiApp in Resources */,
+				8E289B8025E53D540032F128 /* Info.plist in Resources */,
+				8E289B6925E53D140032F128 /* SecondKadaiApp in Resources */,
+				8E289B7E25E53D540032F128 /* Main.storyboard in Resources */,
 				8E289B5525E3F2110032F128 /* Assets.xcassets in Resources */,
+				8E289B7D25E53D540032F128 /* LaunchScreen.storyboard in Resources */,
+				8E289B7C25E53D540032F128 /* Assets.xcassets in Resources */,
 				8E289B5325E3F20D0032F128 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +205,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E289B7A25E53D540032F128 /* ViewController.swift in Sources */,
 				8E289B5025E3F20D0032F128 /* ViewController.swift in Sources */,
 				8E289B4C25E3F20D0032F128 /* AppDelegate.swift in Sources */,
 				8E289B4E25E3F20D0032F128 /* SceneDelegate.swift in Sources */,
+				8E289B7F25E53D540032F128 /* AppDelegate.swift in Sources */,
+				8E289B6225E3F6840032F128 /* ResultViewController.swift in Sources */,
+				8E289B7B25E53D540032F128 /* ResultViewController.swift in Sources */,
+				8E289B8125E53D540032F128 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +233,22 @@
 				8E289B5725E3F2110032F128 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E289B7325E53D540032F128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E289B7425E53D540032F128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8E289B7525E53D540032F128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E289B7625E53D540032F128 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
